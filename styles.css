@@ -1,0 +1,111 @@
+body {
+    background-color: rgba(0, 0, 0, 0.74);
+    font-family: Arial, Helvetica, sans-serif, Helvetical neue;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: black;
+    background-image: url("Artisan-images/artisan\ background.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat:;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+header .mobile {
+    display: none;
+}
+.logo a {
+    background-image: url("Artisan-images/logo.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 130px;
+    position: relative;
+    top: -40px;
+    text-indent: -999999999px;
+    width: 300px;
+}
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    background-color:;
+    display: inline-block;
+    margin-right: 20px;
+    padding: px;
+}
+li a:hover {
+    text-decoration: underline;
+    background-color: red;
+}
+
+/* responsive rules */
+
+@media  screen and (max-width: 1014px) {
+    header {
+        height: 300px;
+    }
+}
+@media screen and (max-width: 711px) {
+    header {
+        height: 200px;
+    }
+    header .mobile {
+        display: inline-block;
+    }
+    header .desktop {
+        display: none;
+    }
+}
+
+/* features */
+.features {
+    background-color: white;
+    color: rgb(184, 7, 7);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.features figure {
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    
+}
+.features figure img {
+    border-radius: 50%;
+    border: 3px solid chocolate;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.856) 10px 10px 10px;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.336);
+    color: rgb(129, 129, 180);
+    padding: 10px 20px;
+    text-align: center;
+}
+/* Responsive Rules */
+@media screen and (max-width: 800px) {
+    .features {
+        background-color: rgb(235, 63, 134);
+    }
+}
+@media screen and (max-width: 600px) {
+    .features {
+        background-color: red;
+    }
+}
